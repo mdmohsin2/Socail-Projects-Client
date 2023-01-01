@@ -17,7 +17,7 @@ const Navbar = () => {
         {
             user?.uid ?
                 <>
-                    <li className='font-bold'><Link to='/media'> like Media</Link></li>
+                    <li className='font-bold'><Link to='/media'> Media</Link></li>
                     <li className='font-bold'><Link to='/message'> Message</Link></li>
                     <li className='font-bold'><button onClick={handleLogout}>Sign Out</button></li>
                 </>

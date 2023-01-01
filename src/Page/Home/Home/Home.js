@@ -1,9 +1,10 @@
 import React from 'react';
+import PostSection from '../PostSection/PostSection';
 
 const Home = () => {
     return (
         <div>
-            <h1>This is home</h1>
+            <PostSection></PostSection>
         </div>
     );
 };

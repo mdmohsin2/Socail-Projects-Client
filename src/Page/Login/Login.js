@@ -44,6 +44,7 @@ const Login = () => {
                 setLoginerror(error.message);
             })
     }
+
     return (
         <div className='h-[600px] flex justify-center items-center'>
             <div className='w-96 bg-gray-800 rounded-md p-7'>
